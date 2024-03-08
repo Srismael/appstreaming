@@ -3,8 +3,12 @@
     padding: 1;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 16px;
-    
+    font-size: 16px;  
+    background-size: cover;
+    background-attachment: fixed;  
+}
+body{
+    background-image: url("../assets/backgroung/fondo.jpg");
 }
 footer{
    
