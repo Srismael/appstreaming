@@ -10,6 +10,78 @@
 body{
     background-image: url("../assets/backgroung/fondo.jpg");
 }
+
+/* para colocar foto de perfil*/
+.perfil-container {
+    width: 55px; /* Ajusta el tamaño según tu preferencia */
+    height: 55px;
+    border-radius: 50%; /* Esto hace que la imagen sea circular */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se salga del círculo */
+    margin-right: 40px; /* Espacio entre la imagen y el formulario de búsqueda */
+  }
+  
+  .perfil-img {
+    width: 100%; /* Asegura que la imagen ocupe todo el espacio del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+  }
+  /* aqui finalisa el para colocar foto de perfil*/
+
+/* esto es el cuerpo osea el catalogo de las peliculas*/
+.lista-peliculas{
+    margin: 0;
+    padding: 3%;
+    display:  grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+.lista-peliculas h1{
+    font-size: 28px;  
+
+
+}
+.col img{
+    box-shadow: -3px -2px 20px 0px #706f6fd6;
+   
+}
+.col a img{
+    padding-bottom: 2%;
+    border-radius: 7px
+    
+    
+}
+.col a {
+    font-size: 18px;
+    
+    
+}
+.container{
+    padding-top: 2%;
+    padding-bottom: 1%;
+    
+}
+.container-Recomendado{
+    padding-bottom: 3%;
+}
+.container-Recomendado h1{
+    padding-left: 3%;
+}
+.container-Peliculas{
+    padding-bottom: 3%;
+}
+.container-Peliculas h1{
+    padding-left: 3%;
+}
+.container-Series{
+    padding-bottom: 3%;
+}
+.container-Series h1{
+    padding-left: 3%;
+}
+/* aqui finaliza el esto es el cuerpo osea el catalogo de las peliculas*/
+
+
+/*el footer*/
 footer{
    
     background: #343434;
@@ -95,3 +167,5 @@ a:hover{
     font-size: 16px;
     padding: 7px;
 }
+/*aqui finaliza el footer*/
+

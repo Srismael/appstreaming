@@ -1,38 +1,43 @@
 <header>
   <nav class="navbar bg-dark navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
-  <div class="container-fluid">
-    <a class="navbar-brand titulo-nav" href="#">IssmaStreaming</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Loging</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Sing up</a>
+    <div class="container-fluid">
+      <a class="navbar-brand titulo-nav" href="#">IssmaStreaming</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
           </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Pablito</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Buscar</button>
-      </form>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Loging</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Sing up</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Pablito</a>
+          </li>
+        </ul>
+        <div class="perfil-container">
+          <img class="perfil-img" src="\assets\foto_perfil\foto1.jpg" alt="Foto de perfil">
+        </div>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
+  
 </header>
-
 
 <body>
 <router-outlet></router-outlet>
+
 <div class="lista-peliculas">
+  
 <div class=" container-Recomendado">
 <h1>Recomendado para ti</h1>
 <div class="container bg-dark text-center">
@@ -141,7 +146,7 @@
     <div class="footer-content">
         <h3>Follow Us</h3>
         <ul class="social-icons">
-         <li><a href="facebook.com"><i class="fab fa-facebook"><img src="\assets\redes_img\facebook.png" alt="facebook" width="50px"></i></a></li>
+         <li><a href="https://www.facebook.com/"><i class="fab fa-facebook"><img src="\assets\redes_img\facebook.png" alt="facebook" width="50px"></i></a></li>
          <li><a href=""><i class="fab fa-twitter"></i><img src="\assets\redes_img\twitter.png" alt="twitter" width="50px"></a></li>
          <li><a href=""><i class="fab fa-instagram"><img src="\assets\redes_img\instagram.png" alt="instagram" width="50px"></i></a></li>
          <li><a href=""><i class="fab fa-linkedin"></i></a></li>
@@ -152,3 +157,4 @@
     <p>&copy; 2023 your company . All rights reserved</p>
 </div>
 </footer>
+
