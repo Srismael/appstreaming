@@ -19,7 +19,6 @@ body{
     overflow: hidden; /* Oculta cualquier parte de la imagen que se salga del círculo */
     margin-right: 40px; /* Espacio entre la imagen y el formulario de búsqueda */
   }
-  
   .perfil-img {
     width: 100%; /* Asegura que la imagen ocupe todo el espacio del contenedor */
     height: auto; /* Mantiene la proporción de la imagen */
@@ -33,7 +32,7 @@ body{
     display:  grid;
     justify-content: center;
     align-items: center;
-    
+
 }
 .lista-peliculas h1{
     font-size: 28px;  
@@ -47,17 +46,14 @@ body{
 .col a img{
     padding-bottom: 2%;
     border-radius: 7px
-    
-    
 }
 .col a {
     font-size: 18px;
-    
-    
 }
 .container{
     padding-top: 2%;
     padding-bottom: 1%;
+    border-radius: 5px;
     
 }
 .container-Recomendado{
