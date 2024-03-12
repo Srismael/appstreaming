@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import {UserComponent} from './user.component';
+import { MiComponent } from './mi.component';
 
-describe('UserComponent', () => {
-  let component: UserComponent;
-  let fixture: ComponentFixture<UserComponent>;
+describe('MiComponent', () => {
+  let component: MiComponent;
+  let fixture: ComponentFixture<MiComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [UserComponent]
+      declarations: [MiComponent]
     });
-    fixture = TestBed.createComponent(UserComponent);
+    fixture = TestBed.createComponent(MiComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
