@@ -1,0 +1,221 @@
+/* efectos por defecto */
+body {
+    font-family: 'Overpass', sans-serif;
+    font-weight: normal;
+    font-size: 100%;
+    color: #1b262c;  
+    margin: 0;
+    background-image: linear-gradient(35deg, #f0c649 0, #e1cb49 5.56%, #d1d04c 11.11%, #c0d552 16.67%, #afd95b 22.22%, #9cdc65 27.78%, #87e072 33.33%, #6fe280 38.89%, #52e48f 44.44%, #1fe69f 50%, #00e7b0 55.56%, #00e8c1 61.11%, #00e9d2 66.67%, #00e9e3 72.22%, #00e9f3 77.78%, #00e8ff 83.33%, #00e7ff 88.89%, #00e5ff 94.44%, #00e3ff 100%);
+    background-image: linear-gradient(35deg, #ddcd49 0, #cdd14d 6.25%, #bdd654 12.5%, #abda5c 18.75%, #99dd67 25%, #84e073 31.25%, #6de281 37.5%, #50e490 43.75%, #1fe69f 50%, #00e7af 56.25%, #00e8c0 62.5%, #00e9d0 68.75%, #00e9e1 75%, #00e9f1 81.25%, #00e8ff 87.5%, #00e7ff 93.75%, #00e6ff 100%);
+
+}
+/* efectos para el contenedor de pantalla completa */
+#contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    
+    background-image: url(../assets/img/fondo_verde_y_azul.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* contenedor del login a la izquierda */
+#contenedorcentrado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    
+    min-width: 380px;
+    max-width: 900px;
+    width: 90%;
+    
+    background-color: #ffff;
+    
+    /*opacity: 0.50;
+    filter: alpha(opacity=50);*/
+    
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+/* formulario de login */
+#login {
+    width: 100%;
+    max-width: 320px;
+    min-width: 320px;
+    padding: 30px 30px 50px 30px;
+    background-color: #4a9e1d77;
+    
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    
+    box-sizing: border-box;
+    
+    opacity: 1;
+    filter: alpha(opacity=1);
+}
+
+#login label {
+    display: block;
+    font-family: 'Overpass', sans-serif;
+    font-size: 120%;
+    color:#3c4245;
+    
+    margin-top: 15px;
+}
+
+#login input {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color: #1b262c;
+    
+    display: block;
+    width: 100%;
+    height: 40px;
+    
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+    
+    box-sizing: border-box;
+    
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+}
+
+#login input::placeholder {
+    font-family: 'Overpass', sans-serif;
+    color: #E4E4E4;
+}
+
+#login button {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color:#1b262c;
+    width: 100%;
+    height: 40px;
+    border: none;
+    
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    
+    background-color: #dfcdc3;
+    
+    margin-top: 10px;
+}
+
+#login button:hover {
+    background-color: #3c4245;
+    color:#dfcdc3;
+}
+/* formulario de login */
+/* seccion de la derecha */
+/* por defecto */
+#derecho {    
+    text-align: center;
+    width: 100%;
+    
+    opacity: 0.70;
+    filter: alpha(opacity=70);
+    
+    padding:20px 20px 20px 50px;
+    box-sizing: border-box;
+}
+
+.circular{
+   border-top-left-radius: 50% 50%;
+   border-top-right-radius: 50% 50%;
+   border-bottom-left-radius: 50% 50%;
+   border-bottom-right-radius: 50% 50%;
+   width: 30%;
+}
+
+.titulo {
+    font-size: 300%;
+    color:#000000;
+}
+
+.logo-empresa img {
+    width: 60%;
+}
+
+hr {
+    border-top: 1px solid #000000;
+	border-bottom: 1px solid #dfcdc3;
+    
+}
+.pie-form {
+    font-size: 90%;
+    text-align: center;    
+    margin-top: 15px;
+}
+
+.pie-form a {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    margin-bottom: 3px;
+}
+
+.pie-form a:hover {
+    color: #719192;
+}
+
+@media all and (max-width: 775px)
+{
+    #contenedorcentrado {
+        flex-direction:column-reverse;
+
+        min-width: 380px;
+        max-width: 900px;
+        width: 90%;
+
+        background-color: #5f6769;
+
+        border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+
+        -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+        -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+        box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+
+        padding: 30px;
+        box-sizing: border-box;
+    }
+    
+    #login {
+        margin: 0 auto;
+    }
+    
+    #derecho {
+        padding:20px 20px 20px 20px;
+    }
+    
+    #login label {
+        text-align: left;
+    }
+}
